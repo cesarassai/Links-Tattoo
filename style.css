@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url(./assets/background-desktop.png) no-repeat top center/cover;
+  background: url(./assets/background-dark.jpg) no-repeat top center/cover;
 }
 
 body * {
@@ -17,7 +17,7 @@ body * {
   border: 1px solid red;
   width: 360px;
   height: 712px;
-  margin: auto;
+  margin: 56px auto 0;
 }
 
 #profile {
@@ -25,6 +25,7 @@ body * {
   width: 360px;
   height: 192px;
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
@@ -34,4 +35,21 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 24px;
+  margin-top: 8px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+
+ul li a {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
 }
