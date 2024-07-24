@@ -14,7 +14,6 @@ body * {
 }
 
 #container {
-  border: 1px solid red;
   width: 360px;
   height: 712px;
   margin: 56px auto 0;
@@ -22,7 +21,6 @@ body * {
 }
 
 #profile {
-  border: 1px solid blue;
   text-align: center;
   padding: 24px;
 }
@@ -61,15 +59,38 @@ ul li a {
   transition: background 0.2s;
 }
 
+/*PSEUDO SELECTOR*/
+
 ul li a:hover {
   border: 1.5px solid white;
   background: rgba(255, 255, 255, 0.05);
 }
 
+/* SOCIAL LINKS */
+
 #social-links {
   display: flex;
   padding: 24px 0;
-  gap: 32px;
   justify-content: center;
   font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
 }
